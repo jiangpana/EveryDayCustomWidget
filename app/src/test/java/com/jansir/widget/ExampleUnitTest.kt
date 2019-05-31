@@ -1,4 +1,4 @@
-package com.jansir.customwidget
+package com.jansir.widget
 
 import org.junit.Test
 

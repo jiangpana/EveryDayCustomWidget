@@ -6,14 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/sample_text"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/mBtnView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ripple_background"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/px28dp"
+        android:text="@string/custom_view" />
+    <Button
+        android:id="@+id/mBtnViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_background"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/px28dp"
+        android:text="@string/custom_viewgroup"
+        app:layout_constraintTop_toBottomOf="@id/mBtnView" />
+
+    <Button
+        android:id="@+id/mBtnWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_background"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/px28dp"
+        android:text="@string/custom_widget"
+        app:layout_constraintTop_toBottomOf="@id/mBtnViewGroup" />
 
 </android.support.constraint.ConstraintLayout>

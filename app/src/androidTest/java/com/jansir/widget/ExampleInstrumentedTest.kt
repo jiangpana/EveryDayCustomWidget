@@ -1,4 +1,4 @@
-package com.jansir.customwidget
+package com.jansir.widget
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
