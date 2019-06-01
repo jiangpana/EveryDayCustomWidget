@@ -28,5 +28,17 @@
         android:textColor="@color/text_666666"
         android:textSize="@dimen/px36sp"
         app:pressedSolid="@color/pressColor" />
+    <com.jansir.widget.customwidget.BGButton
+        android:id="@+id/mBtnRain"
+        app:layout_constraintTop_toBottomOf="@id/mBtnTaiJi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px130dp"
+        android:background="@drawable/ripple_background"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/px28dp"
+        android:text="下雨"
+        android:textColor="@color/text_666666"
+        android:textSize="@dimen/px36sp"
+        app:pressedSolid="@color/pressColor" />
 
 </android.support.constraint.ConstraintLayout>

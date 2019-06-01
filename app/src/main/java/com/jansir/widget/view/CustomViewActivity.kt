@@ -9,6 +9,7 @@ import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import com.jansir.widget.R
 import com.jansir.widget.view.clock.ClockActivity
+import com.jansir.widget.view.rain.RainActivity
 import com.jansir.widget.view.taji.TaiJiActivity
 import kotlinx.android.synthetic.main.activity_custom_view.*
 
@@ -27,6 +28,9 @@ class CustomViewActivity: AppCompatActivity() {
         }
         mBtnTaiJi.setOnClickListener {
             TaiJiActivity.open(this)
+        }
+        mBtnRain.setOnClickListener {
+            RainActivity.open(this)
         }
 
     }

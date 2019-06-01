@@ -19,6 +19,8 @@
         <activity android:name=".view.clock.ClockActivity" />
         <activity android:name=".customwidget.CustomWidgetActivity" />
         <activity android:name=".view.CustomViewActivity" />
+        <activity android:name=".view.rain.RainActivity" />
+        <activity android:name=".view.taji.TaiJiActivity" />
     </application>
 
 </manifest>
