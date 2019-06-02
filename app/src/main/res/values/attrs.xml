@@ -20,4 +20,11 @@
         <attr name="pressedTextColor" format="color"/>
         <attr name="normalTextColor" format="color"/>
     </declare-styleable>
+
+    <declare-styleable name="SunAnimationView">
+        <attr name="z_sun_circle_color" format="color"/>
+        <attr name="z_sun_font_color" format="color"/>
+        <attr name="z_sun_font_size" format="dimension"/>
+        <attr name="z_sun_circle_radius" format="integer"/>
+    </declare-styleable>
 </resources>

@@ -21,6 +21,7 @@
         <activity android:name=".view.CustomViewActivity" />
         <activity android:name=".view.rain.RainActivity" />
         <activity android:name=".view.taji.TaiJiActivity" />
+        <activity android:name=".view.sun.SunUpDownActivity" />
     </application>
 
 </manifest>

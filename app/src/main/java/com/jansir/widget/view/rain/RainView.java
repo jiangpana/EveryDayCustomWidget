@@ -45,7 +45,7 @@ public class RainView extends SurfaceView implements SurfaceHolder.Callback {
     //雨的下落速度
     private static final int DEFAULT_SPEED =30 ;
     //雨的密集程度
-    private static final int DEFAULT_DEGREE =30 ;
+    private static final int DEFAULT_DEGREE =66 ;
 
     private  volatile int degree =DEFAULT_DEGREE;
     private volatile int speed=DEFAULT_SPEED;
@@ -152,7 +152,7 @@ public class RainView extends SurfaceView implements SurfaceHolder.Callback {
             scheduledFuture.cancel(false);
             scheduledFuture = null;
         }
-        scheduledFuture=scheduledExecutorService.scheduleWithFixedDelay(runnable,300,1000,TimeUnit.MILLISECONDS);
+        scheduledFuture=scheduledExecutorService.scheduleWithFixedDelay(runnable,300,10,TimeUnit.MILLISECONDS);
     }
 
     @Override
