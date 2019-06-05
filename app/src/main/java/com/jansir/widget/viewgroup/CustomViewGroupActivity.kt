@@ -5,6 +5,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.jansir.widget.R
+import com.jansir.widget.viewgroup.loadView.WBLoadIngActivity
+import kotlinx.android.synthetic.main.activity_custom_viewgroup.*
 
 /**
  * author: jansir.
@@ -16,7 +18,9 @@ class CustomViewGroupActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_custom_viewgroup)
-
+        mBtnWBLoading.setOnClickListener {
+            WBLoadIngActivity.open(this)
+        }
     }
 
     companion object {

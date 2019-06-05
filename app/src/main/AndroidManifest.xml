@@ -22,6 +22,8 @@
         <activity android:name=".view.rain.RainActivity" />
         <activity android:name=".view.taji.TaiJiActivity" />
         <activity android:name=".view.sun.SunUpDownActivity" />
+        <activity android:name=".viewgroup.CustomViewGroupActivity" />
+        <activity android:name=".viewgroup.loadView.WBLoadIngActivity" />
     </application>
 
 </manifest>

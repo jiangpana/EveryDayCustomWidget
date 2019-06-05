@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.jansir.widget.viewgroup.loadView.ShapeChangeView
+        android:id="@+id/shapeChangeView"
+        android:layout_width="@dimen/px66dp"
+        android:layout_height="@dimen/px66dp"
+        android:layout_marginTop="@dimen/px200dp"
+        android:layout_marginBottom="@dimen/px180dp"
+      />
+
+    <View
+        android:id="@+id/shadowView"
+        android:layout_width="33dp"
+        android:layout_height="6dp"
+        android:background="@drawable/loading_shadow_bg"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_666666"
+        android:layout_marginTop="@dimen/px30dp"
+        android:text="正在加载中...."/>
+</LinearLayout>
