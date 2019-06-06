@@ -24,6 +24,7 @@
         <activity android:name=".view.sun.SunUpDownActivity" />
         <activity android:name=".viewgroup.CustomViewGroupActivity" />
         <activity android:name=".viewgroup.loadView.WBLoadIngActivity" />
+        <activity android:name=".view.countdown.CountDownActivity" />
     </application>
 
 </manifest>

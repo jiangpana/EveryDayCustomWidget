@@ -9,6 +9,7 @@ import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import com.jansir.widget.R
 import com.jansir.widget.view.clock.ClockActivity
+import com.jansir.widget.view.countdown.CountDownActivity
 import com.jansir.widget.view.rain.RainActivity
 import com.jansir.widget.view.sun.SunUpDownActivity
 import com.jansir.widget.view.taji.TaiJiActivity
@@ -35,6 +36,9 @@ class CustomViewActivity: AppCompatActivity() {
         }
         mBtnSun.setOnClickListener {
             SunUpDownActivity.open(this)
+        }
+        mBtnCountDowm.setOnClickListener {
+            CountDownActivity.open(this)
         }
 
     }
