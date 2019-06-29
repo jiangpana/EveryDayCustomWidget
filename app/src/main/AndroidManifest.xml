@@ -25,6 +25,7 @@
         <activity android:name=".viewgroup.CustomViewGroupActivity" />
         <activity android:name=".viewgroup.loadView.WBLoadIngActivity" />
         <activity android:name=".view.countdown.CountDownActivity" />
+        <activity android:name=".viewgroup.slidemenu.SlidingMenuActivity" />
     </application>
 
 </manifest>

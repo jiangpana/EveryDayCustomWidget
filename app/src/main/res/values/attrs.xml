@@ -27,4 +27,9 @@
         <attr name="z_sun_font_size" format="dimension"/>
         <attr name="z_sun_circle_radius" format="integer"/>
     </declare-styleable>
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="z_sm_rightPadding" format="dimension"/>
+    </declare-styleable>
+
 </resources>

@@ -9,4 +9,10 @@
         android:text="五八同城加载动画"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px100dp" />
+    <Button
+        android:id="@+id/mBtnSlidingMenu"
+        android:text="侧滑菜单"
+        app:layout_constraintTop_toBottomOf="@id/mBtnWBLoading"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px100dp" />
 </android.support.constraint.ConstraintLayout>
